@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="height: 150vh;">
+    
+<details>1.bangladesh
+        2.india
+        3.usa
+        4.afghanistan
+    <summary>countries
+    </summary>
+</details>
+
+
+
+
+
+    <script>
+        window.addEventListener("load",function(){
+            console.log("windo opened");
+        })
+        window.addEventListener("scroll",function(){
+            console.log("scrolling done");
+        })
+
+        // toggle works with details tag of html;;;
+
+        var tog=document.querySelector('details')
+        tog.addEventListener('toggle',function(){
+            console.log("togged worked")
+        })
+    </script>
+</body>
+</html>
